@@ -1,0 +1,95 @@
+:root {
+    --fondo: #a09d99;
+}
+
+body {
+
+    overflow-x: hidden;
+    background-color: #fafafa;
+    text-align: left;
+}
+
+#standard-menu {
+    box-shadow: 0 6px 24px -12px #101010;
+}
+
+.fixed-top {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+body .navbar .container {
+    padding: 0.2em;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .navbar .container .collapse ul li {
+    margin-right: 1em;
+    padding: 0.2em;
+}
+
+
+body .main-container {
+    text-align: center;
+    color: white;
+
+}
+
+body .hero-section {
+    padding-top: 2.5em;
+    background-color: black;
+    padding-bottom: 3.5em;
+}
+
+
+body .main-container p {
+    color: darkgray;
+
+}
+
+body .main-container .btn {
+    width: 12em;
+    font-size: 14px;
+    margin: 0 0.75em;
+}
+
+#promotion {
+    background-color: white;
+    box-shadow: 0 6px 24px -12px #101010;
+}
+
+#sub-main {
+    height: 160px;
+    color: black;
+    display: grid;
+}
+
+#sub-main .grid-item {
+    align-self: center;
+    justify-self: center;
+}
+
+#services {
+    padding-top: 2em;
+}
+
+
+#services .card {
+    height: 400px;
+    max-width: 1280px;
+    font-size: 1.3em;
+    margin: 0 auto;
+}
+
+#services .card .card-body a {
+    color: #238b53;
+    font-weight: 700;
+    text-decoration: none;
+}
