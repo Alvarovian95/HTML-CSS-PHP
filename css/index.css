@@ -93,3 +93,65 @@ body .main-container .btn {
     font-weight: 700;
     text-decoration: none;
 }
+
+#companies-trust {
+    margin-top: 4em;
+    padding: 2em;
+    background-color: #a09d99;
+    border-top: 1px solid #ebebeb;
+}
+
+#companies-trust .important-claim {
+    font-weight: bolder;
+    color: #181818;
+    font-size: 2.3em;
+    letter-spacing: -1px;
+    text-align: center;
+    max-width: 840px;
+    display: inline-block;
+}
+.list-inline{
+    top: 2em;
+    position: relative;
+}
+
+.list-inline li{
+    margin-right: 2em;
+    display: inline-block;
+}
+
+.companies-list img {
+    max-width: 150px;
+}
+
+#latest-blog-posts-cta{
+    padding: 4em;
+    color: black;
+}
+
+#latest-blog-posts-cta a{
+    padding: 0.5em;
+   font-weight: bold;
+}
+
+#footer{
+    padding: 2em;
+    background-color: black;
+}
+
+#footer .list-inline{
+    display: inline-block;
+}
+
+#footer-body ul li a{
+    font-weight: 400;
+    text-decoration: none;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+
+
+
